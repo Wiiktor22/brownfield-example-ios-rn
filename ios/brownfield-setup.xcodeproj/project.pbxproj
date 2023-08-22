@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74342B802A9532F80016337C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74342B7F2A9532F80016337C /* AppDelegate.swift */; };
+		74342B822A9532F80016337C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74342B812A9532F80016337C /* SceneDelegate.swift */; };
+		74342B842A9532F80016337C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74342B832A9532F80016337C /* ViewController.swift */; };
+		74342B872A9532F80016337C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74342B852A9532F80016337C /* Main.storyboard */; };
+		74342B892A9532F90016337C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74342B882A9532F90016337C /* Assets.xcassets */; };
+		74342B8C2A9532F90016337C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74342B8A2A9532F90016337C /* LaunchScreen.storyboard */; };
+		74342B942A95347A0016337C /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74342B932A95347A0016337C /* RootTabBarController.swift */; };
+		7464BFF12A953E7F002990CE /* RNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7464BFF02A953E7F002990CE /* RNViewController.swift */; };
+		ABD99348E0BED45304CAF335 /* libPods-brownfield-setup.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F4078E555E83EFF21206A44B /* libPods-brownfield-setup.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74342B7C2A9532F80016337C /* brownfield-setup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "brownfield-setup.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		74342B7F2A9532F80016337C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74342B812A9532F80016337C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		74342B832A9532F80016337C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74342B862A9532F80016337C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74342B882A9532F90016337C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74342B8B2A9532F90016337C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74342B8D2A9532F90016337C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74342B932A95347A0016337C /* RootTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabBarController.swift; sourceTree = "<group>"; };
+		7464BFF02A953E7F002990CE /* RNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RNViewController.swift; sourceTree = "<group>"; };
+		B01ED48AAACC55DBFE7EF6DA /* Pods-brownfield-setup.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brownfield-setup.release.xcconfig"; path = "Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup.release.xcconfig"; sourceTree = "<group>"; };
+		F4078E555E83EFF21206A44B /* libPods-brownfield-setup.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-brownfield-setup.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF887465F7D7F90E5EB8C690 /* Pods-brownfield-setup.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-brownfield-setup.debug.xcconfig"; path = "Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74342B792A9532F80016337C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABD99348E0BED45304CAF335 /* libPods-brownfield-setup.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0FE4BA08D2557DB6600B946D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF887465F7D7F90E5EB8C690 /* Pods-brownfield-setup.debug.xcconfig */,
+				B01ED48AAACC55DBFE7EF6DA /* Pods-brownfield-setup.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		131037E9AD7336BA2DD4332B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4078E555E83EFF21206A44B /* libPods-brownfield-setup.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		74342B732A9532F80016337C = {
+			isa = PBXGroup;
+			children = (
+				74342B7E2A9532F80016337C /* brownfield-setup */,
+				74342B7D2A9532F80016337C /* Products */,
+				0FE4BA08D2557DB6600B946D /* Pods */,
+				131037E9AD7336BA2DD4332B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74342B7D2A9532F80016337C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74342B7C2A9532F80016337C /* brownfield-setup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74342B7E2A9532F80016337C /* brownfield-setup */ = {
+			isa = PBXGroup;
+			children = (
+				74342B7F2A9532F80016337C /* AppDelegate.swift */,
+				74342B812A9532F80016337C /* SceneDelegate.swift */,
+				74342B832A9532F80016337C /* ViewController.swift */,
+				74342B852A9532F80016337C /* Main.storyboard */,
+				74342B882A9532F90016337C /* Assets.xcassets */,
+				74342B8A2A9532F90016337C /* LaunchScreen.storyboard */,
+				74342B8D2A9532F90016337C /* Info.plist */,
+				74342B932A95347A0016337C /* RootTabBarController.swift */,
+				7464BFF02A953E7F002990CE /* RNViewController.swift */,
+			);
+			path = "brownfield-setup";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74342B7B2A9532F80016337C /* brownfield-setup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74342B902A9532F90016337C /* Build configuration list for PBXNativeTarget "brownfield-setup" */;
+			buildPhases = (
+				FD3229AD4A10C2B7FA620681 /* [CP] Check Pods Manifest.lock */,
+				74342B782A9532F80016337C /* Sources */,
+				74342B792A9532F80016337C /* Frameworks */,
+				74342B7A2A9532F80016337C /* Resources */,
+				8F89B4FED2911B800EC049E0 /* [CP] Embed Pods Frameworks */,
+				C31912053A62AE2F32C6CFCB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "brownfield-setup";
+			productName = "brownfield-setup";
+			productReference = 74342B7C2A9532F80016337C /* brownfield-setup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74342B742A9532F80016337C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					74342B7B2A9532F80016337C = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 74342B772A9532F80016337C /* Build configuration list for PBXProject "brownfield-setup" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74342B732A9532F80016337C;
+			productRefGroup = 74342B7D2A9532F80016337C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74342B7B2A9532F80016337C /* brownfield-setup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74342B7A2A9532F80016337C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74342B8C2A9532F90016337C /* LaunchScreen.storyboard in Resources */,
+				74342B892A9532F90016337C /* Assets.xcassets in Resources */,
+				74342B872A9532F80016337C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8F89B4FED2911B800EC049E0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C31912053A62AE2F32C6CFCB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-brownfield-setup/Pods-brownfield-setup-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD3229AD4A10C2B7FA620681 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-brownfield-setup-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74342B782A9532F80016337C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74342B842A9532F80016337C /* ViewController.swift in Sources */,
+				74342B942A95347A0016337C /* RootTabBarController.swift in Sources */,
+				74342B802A9532F80016337C /* AppDelegate.swift in Sources */,
+				7464BFF12A953E7F002990CE /* RNViewController.swift in Sources */,
+				74342B822A9532F80016337C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74342B852A9532F80016337C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74342B862A9532F80016337C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74342B8A2A9532F90016337C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74342B8B2A9532F90016337C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74342B8E2A9532F90016337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74342B8F2A9532F90016337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = i386;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_CPLUSPLUSFLAGS = "$(inherited)";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74342B912A9532F90016337C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF887465F7D7F90E5EB8C690 /* Pods-brownfield-setup.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9PVKZMV5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brownfield-setup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiktorszlegier.brownfield-setup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74342B922A9532F90016337C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B01ED48AAACC55DBFE7EF6DA /* Pods-brownfield-setup.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P9PVKZMV5J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "brownfield-setup/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wiktorszlegier.brownfield-setup";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74342B772A9532F80016337C /* Build configuration list for PBXProject "brownfield-setup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74342B8E2A9532F90016337C /* Debug */,
+				74342B8F2A9532F90016337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74342B902A9532F90016337C /* Build configuration list for PBXNativeTarget "brownfield-setup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74342B912A9532F90016337C /* Debug */,
+				74342B922A9532F90016337C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74342B742A9532F80016337C /* Project object */;
+}
